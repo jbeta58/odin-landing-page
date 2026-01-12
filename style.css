@@ -1,5 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    margin: 0;
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 250px 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+footer {
+    background-color: #1F2937;
+    align-content: center;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 100px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 100px 250px 100px 250px;
+    display: flex;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0;
+}
+
+.hero-side {
+    flex: 1;
+    padding: 5px 50px 5px 0;
+}
+
+.hero img {
+    flex: 1;
+}
+
+.random {
+    padding: 20px 250px 80px 250px;
+    text-align: center;
+}
+
+.random-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px 0 50px 0;
+}
+
+.sports {
+    display: flex;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.sport {
+    flex: 1;
+}
+
+.sport img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sport div {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 350px 100px 350px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-signature {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    padding: 0 40px 0 0;
+}
+
+.action {
+    padding: 100px 250px 100px 250px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action-text {
+    color:#E5E7EB;
+}
+
+.action button {
+    border: 2px solid #F9FAF8;
+    padding: 2px 50px;
 }
